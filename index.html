@@ -150,12 +150,11 @@
   details .body p{margin:0 0 10px}
   details .body strong{color:var(--ink)}
 
-  .videos{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-  .videos figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;box-shadow:var(--shadow)}
-  .videos video{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;background:#111}
-  .videos figcaption{padding:8px 4px 2px}
-  .videos figcaption b{display:block;font-size:15px}
-  .videos figcaption span{font-size:13px;color:var(--ink-soft)}
+  .videos{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:18px 0 0}
+  .videos figure{margin:0}
+  .videos video{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:#111}
+  .videos figcaption{font-size:13px;color:var(--ink-soft);margin-top:6px}
+  .videos figcaption b{font-weight:400}
 
   .problem{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--navy);border-radius:12px;padding:16px 18px;margin-bottom:18px}
   .problem p{margin:0}
@@ -194,9 +193,9 @@
   <div class="wrap">
     <a class="logo" href="#top">문현웅</a>
     <ul>
-      <li><a href="#catsnote">🐱 캣츠노트</a></li>
-      <li><a href="#beers">🍺 비어앤 치어스</a></li>
-      <li><a href="#busoki">🔧 부속이</a></li>
+      <li><a href="#catsnote">캣츠노트</a></li>
+      <li><a href="#beers">비어앤 치어스</a></li>
+      <li><a href="#busoki">부속이</a></li>
     </ul>
     <a class="contact" href="#contact">연락처</a>
   </div>
@@ -234,6 +233,12 @@
   </div>
   <p class="caption">▶ 공식 트레일러 · <a href="https://www.youtube.com/watch?v=8i3se--5RfM" target="_blank" rel="noopener">유튜브에서 보기</a></p>
 
+  <div class="gallery">
+    <figure><img src="img/cats-play.webp" alt="플레이 화면" loading="lazy"><figcaption>플레이</figcaption></figure>
+    <figure><img src="img/cats-custom.webp" alt="꾸미기 화면" loading="lazy"><figcaption>꾸미기</figcaption></figure>
+    <figure><img src="img/cats-photo.webp" alt="사진 저장·공유" loading="lazy"><figcaption>사진 저장 · 공유</figcaption></figure>
+  </div>
+
   <dl class="meta">
     <div><dt>장르</dt><dd>캐주얼 리듬</dd></div>
     <div><dt>플랫폼</dt><dd>Android · iOS</dd></div>
@@ -243,11 +248,6 @@
     <div><dt>도구</dt><dd>Unity · Firebase · Cloudflare R2 · Claude Code · Unity MCP</dd></div>
   </dl>
 
-  <div class="gallery">
-    <figure><img src="img/cats-play.webp" alt="플레이 화면" loading="lazy"><figcaption>플레이</figcaption></figure>
-    <figure><img src="img/cats-custom.webp" alt="꾸미기 화면" loading="lazy"><figcaption>꾸미기</figcaption></figure>
-    <figure><img src="img/cats-photo.webp" alt="사진 저장·공유" loading="lazy"><figcaption>사진 저장 · 공유</figcaption></figure>
-  </div>
 
   <div class="two">
     <div>
@@ -291,19 +291,19 @@
   <div class="videos">
     <figure>
       <video src="video/beer.mp4" poster="img/poster-beer.webp" controls muted loop playsinline preload="none"></video>
-      <figcaption><b>🍺 맥주 제조 · 따르기</b></figcaption>
+      <figcaption><b>맥주 제조 · 따르기</b></figcaption>
     </figure>
     <figure>
       <video src="video/cooking.mp4" poster="img/poster-cooking.webp" controls muted loop playsinline preload="none"></video>
-      <figcaption><b>🍳 요리</b></figcaption>
+      <figcaption><b>요리</b></figcaption>
     </figure>
     <figure>
       <video src="video/washing.mp4" poster="img/poster-washing.webp" controls muted loop playsinline preload="none"></video>
-      <figcaption><b>🍽️ 설거지</b></figcaption>
+      <figcaption><b>설거지</b></figcaption>
     </figure>
     <figure>
       <video src="video/riding.mp4" poster="img/poster-riding.webp" controls muted loop playsinline preload="none"></video>
-      <figcaption><b>🦓 탈것</b></figcaption>
+      <figcaption><b>탈것</b></figcaption>
     </figure>
   </div>
 
